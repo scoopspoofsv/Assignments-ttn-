@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment 17feb</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            margin-bottom: 20px;
+            background-color: #f4f4f4;
+            position: relative;
+        }
+
+        #login {
+            position: absolute;
+            right: 10px;
+            width: 60px;
+            height: 25px;
+            top: 10px;
+        }
+
+        main {
+            float: right;
+            width: 69%;
+            margin-right: 30px;
+            position: relative;
+        }
+
+        #banner {
+            margin-bottom: 20px;
+        }
+
+        #imagedesc {
+            margin-bottom: 30px;
+        }
+
+        #mainimage {
+            float: left;
+        }
+
+        #imagetext {
+            position: relative;
+            left: 20px;
+        }
+
+        #userinfo {
+            margin-top: 25px;
+        }
+        aside{
+            float: left;
+            width: 20%;
+            background-color: #f4f4f4;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <img src="https://source.unsplash.com/50x50/?logo" alt="logo">
+        <button id="login">login</button>
+    </header>
+    <!-- main content right -->
+    <main>
+        <section id="banner">
+            <img src="/htmlsandbox_starter/images/sample.jpg" width="150px" height="150px">
+            <img src="/htmlsandbox_starter/images/sample.jpg" width="150px" height="150px">
+            <img src="/htmlsandbox_starter/images/sample.jpg" width="150px" height="150px">
+            <img src="/htmlsandbox_starter/images/sample.jpg" width="150px" height="150px">
+        </section>
+        <section id="imagedesc">
+            <img src="/htmlsandbox_starter/images/sample.jpg" id="mainimage" width="300px" height="300px">
+            <article id="imagetext">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta id aliquam saepe porro corrupti,
+                    perferendis exercitationem debitis in voluptatum quibusdam magni modi, blanditiis sequi
+                    necessitatibus?
+                    Ad sequi laudantium dolor ullam officia error, dicta ut obcaecati placeat ex earum delectus
+                    praesentium
+                    consequuntur dignissimos aliquid qui vitae! Tempora iusto est laboriosam harum provident? Sequi nam
+                    in
+                    aliquam ipsum delectus nulla quam eaque pariatur consequuntur hic? Rerum architecto natus alias odio
+                    reprehenderit quo officia ab optio similique, excepturi totam eius, nihil dolore illum, non cumque
+                    saepe
+                    repellat numquam eum amet harum voluptatem reiciendis eaque! Sequi ducimus adipisci quae alias sit,
+                    obcaecati iusto cum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, ex. Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Sapiente vel neque, debitis quia ducimus sed voluptate
+                    commodi dolorum ipsa excepturi nesciunt architecto nisi at totam ratione optio possimus
+                    exercitationem aliquid, cumque magni hic, in eligendi. Enim, aperiam in! Aliquid omnis, numquam
+                    dolores eum ex doloribus, ducimus quisquam, eius expedita blanditiis labore eligendi nostrum atque
+                    exercitationem. Neque minus qui quisquam accusantium ab, incidunt consequatur unde maxime, sit aut
+                    repellat inventore? Hic, molestiae omnis dignissimos ipsam perferendis voluptatibus. Ad odit nobis
+                    eius dignissimos laboriosam iusto hic quaerat magni at cupiditate non, perferendis error illo beatae
+                    architecto rerum expedita iste reprehenderit atque a.
+                </p>
+            </article>
+        </section>
+        <section id="userdata">
+            <form action="actionpage.php">
+                <span id="user_name">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="enter name">
+                </span>
+                <div id="email">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="enter email">
+                </div>
+            </form>
+        </section>
+        <!-- table -->
+        <section id="userinfo">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Name</th>
+                        <th rowspan="2">Training name</th>
+                    </tr>
+                    <tr>
+                        <th>First</th>
+                        <th>Last</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Shivam</td>
+                        <td>Pandey</td>
+                        <td>HTML</td>
+                    </tr>
+                    <tr>
+                        <td>Ananay</td>
+                        <td>Badial</td>
+                        <td>CSS</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <aside>
+        <!-- navigation -->
+        <nav>
+            <ul id="main-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+</body>
+
+</html>
