@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        .container{
+            max-width: 960px;
+            margin: auto;
+            background-color: azure;
+            padding: 10px;
+            border: 1px solid grey;
+        }
+        #font-prop p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        #back-prop p {
+            text-align: center;
+            color: #fff;
+            height: 80px;
+            background: url(./img/stars.jpg) center center/cover;
+            padding: 40px 0 0 0;
+            font-size: 20px;
+        }
+
+        #pseudo ul li:nth-child(even) {
+            color: #0000ff;
+            font-size: 20px;
+        }
+
+        #pseudo ul li::after {
+            content: " Content 'after'";
+        }
+
+        #pseudo ul li::before {
+            content: " Content 'before' ";
+        }
+
+        #combinators>p {
+            color: #a1a1a1;
+        }
+
+        #combinators h2+p {
+            color: #999000;
+            text-transform: uppercase;
+        }
+
+        input[type=text] {
+            width: 50%;
+            padding: 20px;
+            font-size: 20px;
+            background-color: #f4f4f4;
+            border: 1px solid #333;
+            color: #4fa14b;
+        }
+
+        input[type=text]:focus {
+            background-color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="font-prop">
+            <h2>Font properties</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo culpa eligendi pariatur quisquam. Debitis
+                necessitatibus cupiditate blanditiis, cumque non pariatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nulla veritatis natus reiciendis
+                dolores
+                est, consectetur dolorem! Sed, laboriosam doloribus.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, praesentium quia explicabo nostrum enim
+                doloribus sunt molestias exercitationem nisi voluptates.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque distinctio eum quaerat, ad fugiat
+                voluptatibus
+                molestiae excepturi facere provident doloribus!</p>
+        </div>
+        <div id="back-prop">
+            <h2>Background properties</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque magni velit cupiditate esse fugit soluta.
+            </p>
+        </div>
+        <div id="pseudo">
+            <h2>Pseudo classes</h2>
+            <ul>
+                <li>first</li>
+                <li>second</li>
+                <li>third</li>
+                <li>fourth</li>
+                <li>fifth</li>
+            </ul>
+        </div>
+        <div id="combinators">
+            <h2>combinators</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio distinctio animi molestias? Perferendis,
+                culpa
+                tempora?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, voluptate nulla aperiam delectus
+                consequuntur commodi.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure nisi velit labore delectus quia eos!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugiat quam veritatis incidunt
+                necessitatibus rerum.</p>
+        </div>
+        <div id="attrib-select">
+            <h2>Attribute Selector</h2>
+            <input type="text" name="" id="">
+        </div>
+    </div>
+</body>
+
+</html>
