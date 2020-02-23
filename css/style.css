@@ -230,7 +230,7 @@ main .boxes {
     padding: 8px 2px;
     display: inline-block;
     margin-right: -4px;
-    width: calc(1117px/4 - 20px);
+    width: calc(1100px/4 - 10px);
     text-align: center;
     border: none;
     color: #fff;
