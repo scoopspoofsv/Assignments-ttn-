@@ -1,0 +1,253 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Utility Classes */
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary {
+    color: #79b530;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.clearfix {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.l-heading {
+    font-size: 35px;
+}
+
+/* Individual css */
+
+/* Header */
+
+/* First navbar */
+
+header .social-nav {
+    background-color: #f8f8f8;
+    width: 100%;
+    overflow: auto;
+}
+
+header .social-nav ul {
+    list-style: none;
+}
+
+header .social-nav .normal-links ul li {
+    float: left;
+}
+
+header .social-nav .normal-links ul li a {
+    color: #878b8d;
+    font-weight: 200;
+    font-size: 10px;
+}
+
+header .social-nav .normal-links ul li a::before {
+    content: ' | ';
+    padding: 0px 8px;
+}
+
+.unstyled::before {
+    visibility: hidden;
+}
+
+header .social-nav .social-links {
+    position: relative;
+    float: right;
+}
+
+header .social-nav .social-links ul li {
+    float: left;
+    padding-right: 20px;
+}
+
+.fab {
+    color: #79b530;
+}
+
+/* second nav bar */
+
+header .info-nav .site-heading {
+    position: relative;
+    padding: 15px 0px;
+}
+
+header .info-nav .site-heading ul {
+    display: inline-block;
+}
+
+header .info-nav .site-heading ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+header .info-nav .site-heading ul li a {
+    color: #79b530;
+}
+
+header .info-nav .site-heading ul li span {
+    color: #878b8d;
+    font-size: small;
+}
+
+header .info-nav .site-heading ul li .fas {
+    padding-right: 10px;
+}
+
+header .info-nav .site-heading ul .site-title h2 {
+    padding-bottom: 0px;
+}
+
+header .info-nav .site-heading ul .site-title p {
+    margin: 2px 0px;
+    font-size: 13px;
+    color: #878b8d;
+}
+
+header .info-nav .site-heading .contact {
+    position: absolute;
+    right: 35%;
+}
+
+header .info-nav .site-heading .contact li i {
+    position: absolute;
+    top: 11%;
+    right: 100%;
+}
+
+header .info-nav .site-heading .location {
+    position: absolute;
+    right: 15%;
+}
+
+header .info-nav .site-heading .apply {
+    position: absolute;
+    right: 0;
+    border: 1px solid #79b530;
+    padding: 5px 25px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* third nav bar */
+
+header .page-nav {
+    background-color: #79b530;
+    padding: 20px 0;
+}
+
+header .page-nav ul {
+    list-style: none;
+}
+
+header .page-nav ul li {
+    display: inline-block;
+    padding-right: 2.948%;
+    font-size: small;
+    right: 0;
+}
+
+header .page-nav ul li:last-child {
+    padding-right: 0;
+}
+
+header .page-nav ul li a {
+    color: #fff;
+}
+
+/* main body */
+
+/* cover pic and its content */
+
+.cover-pic {
+    padding: 10% 0;
+    color: #fff;
+    text-align: center;
+    line-height: 2.4rem;
+    background: url("/HotelWebsite/img/cover.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+.cover-pic a {
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    background-color: #79b530;
+    padding: 10px 20px;
+}
+
+.cover-pic a:hover {
+    background-color: #609026;
+}
+
+/* 4 div boxes */
+
+.box-container {
+    position: absolute;
+    display: block;
+    z-index: 5;
+    margin-top: -6%;
+}
+
+main .boxes {
+    padding: 8px 2px;
+    display: inline-block;
+    margin-right: -4px;
+    width: calc(1117px/4 - 20px);
+    text-align: center;
+    border: none;
+    color: #fff;
+}
+
+main #box1 {
+    background-color: #4886ff;
+}
+
+main #box2 {
+    background-color: #ff6f6f;
+}
+
+main #box3 {
+    background-color: #b5d56a;
+}
+
+main #box4 {
+    background-color: #fa8147;
+}
