@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Facebook - login sign up</title>
+</head>
+
+<body>
+    <div class="gradient">
+        <header>
+            <div class="container">
+                <h2>facebook</h2>
+                <form action="submit.php">
+                    <div class="form-control form-email">
+                        <label for="Email">Email or phone</label><br>
+                        <input type="text" name="Email" id="Email"><br>
+                    </div>
+                    <div class="form-control">
+                        <label for="Password">Password</label><br>
+                        <input type="text" name="Password" id="Password"><br>
+                    </div>
+                    <div class="form-control">
+                        <a href="#" id="btn-login">Log In</a>
+                    </div>
+                    <div class="forgot">
+                        <a href="#">Forgotten account?</a>
+                    </div>
+                </form>
+            </div>
+        </header>
+        <div class="clearfix"></div>
+
+        <main>
+            <div class="container">
+                <section class="lfloat">
+                    <div id="about-facebook">
+                        Facebook helps you connect and share with the people in your life.
+                    </div>
+                    <img src="./img/network.png" alt="about facebook">
+                </section>
+                <section class="rfloat">
+                    <div class="signup">
+                        <span>Create an account</span>
+                        <p>It's quick and easy.</p>
+                    </div>
+                    <form action="none">
+                        <div class="name">
+                            <input type="text" name="fname" id="fname" placeholder="First name">
+                            <input type="text" name="lname" id="lname" placeholder="Last name">
+                        </div>
+                        <div class="email">
+                            <input type="text" name="number" id="number" placeholder="Mobile number or email address">
+                        </div>
+                        <div class="password">
+                            <input type="password" name="pass" id="pass" placeholder="New password">
+                        </div>
+                        <div class="birthday">
+                            <label for="Birthday">Birthday</label><br>
+                            <select name="date" id="date">
+                                <option value="1">1</option>
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="15">15</option>
+                                <option value="25">25</option>
+                            </select>
+                            <select name="month" id="month">
+                                <option value="Feb">Feb</option>
+                                <option value="Feb">Mar</option>
+                                <option value="Feb">Apr</option>
+                            </select>
+                            <select name="year" id="year">
+                                <option value="1995">1995</option>
+                                <option value="1995">2000</option>
+                                <option value="1995">2005</option>
+                            </select>
+                        </div>
+                        <div class="gender">
+                            <label for="gender">Gender</label><br>
+                            <input type="radio" name="gender" id="female"><span class="values"> Female</span>
+                            <input type="radio" name="gender" id="male"><span class="values"> Male</span>
+                            <input type="radio" name="gender" id="custom"><span class="values"> Custom</span>
+                        </div>
+                        <div class="agreement">
+                            By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive
+                            SMS notifications from us and can opt out at any time.
+                        </div>
+                        <a href="#" id="btn-signup">Sign Up</a>
+                    </form>
+                    <div class="message">
+                        <a href="#">Create a Page</a> for a celebrity, band or business.
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
