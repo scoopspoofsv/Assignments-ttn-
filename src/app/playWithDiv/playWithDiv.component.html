@@ -1,0 +1,16 @@
+Question 1 :
+<button class="btn" (click)="toggleDiv()">
+    {{ divShown ? 'Hide' : 'Show'}} The Box
+</button>
+
+<div class="funnyDiv" *ngIf="divShown" [ngClass]="getDivColor()">
+    Inside {{ getDivColor() }} class
+</div>
+<div> Question 2 :
+    <button class="btn green" *ngIf="divShown" [disabled]="getDivColor() === 'green'" (click)="changeColor('green')">
+    Green Goblin
+</button>
+    <button class="btn red" *ngIf="divShown" [disabled]="getDivColor() === 'red'" (click)="changeColor('red')">
+    Red Riding Hood
+</button>
+</div>
